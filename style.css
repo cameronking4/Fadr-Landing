@@ -3569,8 +3569,7 @@ body.home4 .header-area.cta3 a.header-btn:hover {
 .home4-hero-mobile {
 	position: absolute;
 	z-index: 1;
-	right: 0;
-	top: -50%;
+	top: -90%;
 }
 
 @media (max-width: 767px) {
