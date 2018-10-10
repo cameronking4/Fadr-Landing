@@ -4,9 +4,9 @@
  width="1600px" height="808px">
 <defs>
 <linearGradient id="PSgrad_0" x1="0%" x2="100%" y1="0%" y2="0%">
-  <stop offset="0%" stop-color="rgb(157,80,187)" stop-opacity="1" />
-  <stop offset="60%" stop-color="rgb(134,76,179)" stop-opacity="1" />
-  <stop offset="100%" stop-color="rgb(110,72,170)" stop-opacity="1" />
+  <stop offset="0%" stop-color="darkgrey" stop-opacity="1" />
+  <stop offset="60%" stop-color="skyblue" stop-opacity="1" />
+  <stop offset="100%" stop-color="deepskyblue" stop-opacity="1" />
 </linearGradient>
 
 </defs>
