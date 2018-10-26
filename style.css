@@ -2582,17 +2582,17 @@ body.home1 .contact-form form input[type="submit"]:hover {
 ====/========        =======/==== */
 
 .home2-hero-area {
-	background-image: -webkit-linear-gradient(0deg, #2196f3 0%, #3074d4 60%, #3f51b5 100%);
-	background-image: -ms-linear-gradient(0deg, #2196f3 0%, #3074d4 60%, #3f51b5 100%);
+	background-image: url(assets/barbers/2.png);
+	background-position:top;
+	background-size: cover;
 	padding-top: 140px;
 	padding-bottom: 80px;
 	position: relative;
-	overflow: hidden;
+	overflow:visible;
+	min-height: 700px;
 }
-
 .home2-hero-area:after,
 .home2-hero-area:before {
-	background: url(assets/svg/home2-hero-circle-small.svg);
 	position: absolute;
 	right: -461px;
 	top: -418px;
@@ -2606,13 +2606,13 @@ body.home1 .contact-form form input[type="submit"]:hover {
 }
 
 .home2-hero-area:before {
-	background: url(assets/svg/home2-hero-circle-big.svg);
 	right: -619px;
 	top: -576px;
 	height: 135%;
 	background-repeat: no-repeat;
 	background-position: top right;
 }
+
 
 a.header-btn.cta:hover {
 	opacity: 1;
@@ -2637,8 +2637,19 @@ body.home3 .about-single-item:hover {
 }
 
 @media (max-width: 767px) {
+	.home2-hero-area{
+		background-color: #2196f3;
+		background-image: none;
+	}
+	
+	.mob{
+		text-align: center;
+		margin-right: -140px;
+	}
+	
 	.home2-hero-text h1 {
 		font-size: 25px;
+		color: #fff
 	}
 }
 
@@ -2974,6 +2985,11 @@ body.home3 .mainmenu ul li a:hover {
 	padding-top: 300px;
 	padding-bottom: 240px;
 	overflow: hidden;
+}
+
+,jokes{
+	
+	
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -5304,6 +5320,14 @@ div#sticky-wrapper {
 	width: 100%;
 	z-index: 9999;
 }
+
+div#sticky-wrapper2 {
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
+	background-color: rgba(33, 150, 243, 0.44);
+}
+
 
 div#sticky-wrapper.is-sticky .header-area {
 	padding-bottom: 8px;
