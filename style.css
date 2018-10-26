@@ -828,7 +828,7 @@ body.home3 div#sticky-wrapper.is-sticky .header-area .mainmenu ul li.active a,
 body.home4 div#sticky-wrapper.is-sticky .header-area .mainmenu ul li.active a,
 .home3 div#sticky-wrapper.is-sticky .header-area .mainmenu ul li a:hover,
 .home4 div#sticky-wrapper.is-sticky .header-area .mainmenu ul li a:hover {
-	color: #9052b5;
+	color: dodgerblue;
 }
 
 .home3-theme-bg,
@@ -2725,7 +2725,7 @@ body.home2 .mainmenu.cta ul li a:hover {
 }
 
 body.home6 .contact-area.cta5 .home-2-form-submit input[type="submit"]:hover {
-	color: #79c131;
+	color: deepskyblue;
 }
 
 
@@ -3047,11 +3047,14 @@ body.home3 .mainmenu ul li a:hover {
 
 .main-hero-area.cta3:after {
 	background: none;
+	color: deepskyblue;
 }
 
 .header-area.cta3 a.header-btn {
 	border: 2px solid;
 	background: none;
+	border-color: white;
+	color: white;
 }
 
 .header-area.cta3 a.header-btn:hover {
@@ -3138,7 +3141,7 @@ body.home3 .featured-area {
 }
 
 .featured-area.cta3:after {
-	background-image: -webkit-linear-gradient(bottom, #9d50bb 0%, #864cb3 60%, #6e48aa 100%);
+	background-image: -webkit-linear-gradient(bottom, #3074d4 0%, #2196f3 60%, #2196f3 100%);
 	background-image: linear-gradient(to top, #9d50bb 0%, #864cb3 60%, #6e48aa 100%);
 	position: absolute;
 	left: 0;
@@ -3557,7 +3560,7 @@ body.home4 .is-sticky .mainmenu ul li a {
 
 body.home4 .header-area.cta3 a.header-btn {
 	background: #fff;
-	color: #6e4ba8;
+	color: red;
 	border: 2px solid transparent;
 }
 
