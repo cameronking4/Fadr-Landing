@@ -496,7 +496,7 @@ body.home6 div#sticky-wrapper.is-sticky .mainmenu ul li a:hover,
 .blog-page div#sticky-wrapper.is-sticky .header-area .mainmenu ul li.active a,
 .preview-hero a:hover,
 .single-preview:hover h4 a {
-	color: #79c131;
+	color: lightgrey;
 }
 
 .home1-theme-bg,
@@ -2979,18 +2979,14 @@ body.home3 .mainmenu ul li a:hover {
 }
 
 .main-hero-area.cta3 {
-	background: url(assets/svg/home3-hero.svg) no-repeat;
+	background: url(assets/barbers/app5.png) no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	padding-top: 300px;
-	padding-bottom: 240px;
+	padding-bottom: 140px;
 	overflow: hidden;
 }
 
-,jokes{
-	
-	
-}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.header-area.cta3 ul#nav {
